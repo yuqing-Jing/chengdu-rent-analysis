@@ -1,0 +1,11 @@
+_pycache_/ 
+*.pyc 
+*.pyo 
+.env 
+venv/ 
+vscode 
+idea/ 
+logs/ 
+data/raw/ 
+*.log 
+config/*.local.yaml
