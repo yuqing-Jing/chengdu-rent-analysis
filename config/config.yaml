@@ -1,0 +1,24 @@
+# 成都租房分析项目配置文件
+database:
+  host: localhost
+  port: 3306
+  user: root
+  password: 12345   # 改成你的 MySQL 密码
+  database: rental_chengdu
+
+crawler:
+  request_interval: [1, 3]
+  max_retries: 3
+  districts:
+    - 锦江区
+    - 青羊区
+    - 金牛区
+    - 武侯区
+    - 成华区
+    - 高新区
+    - 天府新区
+    - 双流区
+    - 温江区
+    - 郫都区
+    - 龙泉驿区
+    - 新都区
