@@ -10,8 +10,17 @@ cleaning:
     武侯: 武侯区
     成华: 成华区
     高新: 高新区
+    天府: 天府新区
     双流: 双流区
   missing_strategy:
     rent_amount: drop
     area: drop
     decoration: mode
+  floor_mapping:
+    低楼层: low
+    中楼层: mid
+    高楼层: high
+  decoration_mapping:
+    精装: luxury
+    简装: fine
+    毛坯: unfurnished

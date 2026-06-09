@@ -3,12 +3,13 @@ database:
   host: localhost
   port: 3306
   user: root
-  password: 12345   # 改成你的 MySQL 密码
+  password: 12345   
   database: rental_chengdu
 
 crawler:
   request_interval: [1, 3]
   max_retries: 3
+  timeout: 10
   districts:
     - 锦江区
     - 青羊区
@@ -22,3 +23,9 @@ crawler:
     - 郫都区
     - 龙泉驿区
     - 新都区
+business_areas:   
+    - 春熙路
+    - 金融城
+    - 大源
+    - 桐梓林
+    - 建设路
