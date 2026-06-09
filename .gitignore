@@ -12,3 +12,4 @@ config/*.local.yaml
 dist/
 build/
 *.egg-info/
+config/ai_config.yaml
