@@ -1,15 +1,50 @@
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
-*.pyo
-.env
+*.py[cod]
+*$py.class
+
+# Virtual environments
 venv/
+env/
+ENV/
+.venv
+
+# IDE settings
 .vscode/
 .idea/
+*.swp
+*.swo
+
+# Logs and databases
 logs/
-data/raw/
 *.log
-config/*.local.yaml
-dist/
-build/
-*.egg-info/
+*.sqlite
+*.db
+
+# Sensitive configuration (API keys, passwords)
 config/ai_config.yaml
+config/*.local.yaml
+config/*.local.yml
+.env
+
+# ETL temporary or output data (if any)
+data/raw/
+data/processed/
+*.tmp
+
+# Chrome profile used by Playwright
+chrome_profile/
+
+
+
+
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Playwright browser binaries (if stored locally)
+playwright/.local-browsers
