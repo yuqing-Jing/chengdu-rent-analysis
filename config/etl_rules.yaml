@@ -1,0 +1,8 @@
+# config/etl_rules.yaml
+cleaning:
+  # 价格与面积的合理范围 (超出直接丢弃)
+  price_range: [300, 50000]
+  area_range: [10, 500]
+  
+  # IQR (四分位距) 异常值检测倍数
+  iqr_multiplier: 1.5
